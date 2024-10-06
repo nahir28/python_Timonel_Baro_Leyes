@@ -64,4 +64,3 @@ class CatalogoPelicula:     #Definimos la clase de catalogo de peliculas
             print(f"El catálogo '{self.nombre}' fue eliminado.")
         except FileNotFoundError:     
             print(f"El catálogo '{self.nombre}' no existe.")
-            
